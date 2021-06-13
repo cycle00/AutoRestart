@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AutoRestart:jar">
+    <output-path>$PROJECT_DIR$/../../../Minecraft Modded Server/plugins</output-path>
+    <root id="archive" name="AutoRestart.jar">
+      <element id="module-output" name="AutoRestart" />
+    </root>
+  </artifact>
+</component>

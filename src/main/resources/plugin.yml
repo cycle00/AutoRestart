@@ -1,0 +1,23 @@
+name: AutoRestart
+version: 1.0.0
+author: Cycle00
+api-version: 1.17
+main: cycle00.autorestart.AutoRestart
+
+commands:
+  autorestart:
+    description: Tools for scheduling automatic restarting.
+    permission: autorestart.ar
+    permission-message: You don't have permission to run this command
+    aliases: [ar]
+
+permissions:
+  autorestart.*:
+    description: Gives all persmissions for AutoRestart
+    children:
+      autorestart.ar:
+        description: Gives access to basic AutoRestart commands
+        default: true
+      autorestart.admin:
+        description: Gives access to admin AutoRestart commands
+        default: op
